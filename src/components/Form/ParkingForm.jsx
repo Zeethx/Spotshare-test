@@ -3,6 +3,7 @@ import { useForm, Controller } from "react-hook-form";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { InputField, Button } from "../";
+import { useNavigate } from "react-router-dom";
 
 function ParkingForm() {
   const { control, handleSubmit } = useForm({
@@ -12,7 +13,12 @@ function ParkingForm() {
       dateTimeOut: new Date(),
     },
   });
-  const onSubmit = (data) => console.log(data);
+// onsubmit clicked go to /become-a-host
+  navigate = useNavigate();
+
+  const onSubmit = () => {
+    navigate("/become-a-host");
+  };
 
   return (
     <div className="mx-auto my-10 p-5 border rounded-lg shadow-lg max-w-xl">
@@ -69,7 +75,7 @@ function ParkingForm() {
           </div>
         </div>
 
-        <Button type="submit" text="Submit" 
+        <Button type="submit" text="Test Host Form" 
         className="w-full bg-primary-color text-white p-2 rounded-md"/>
       </form>
     </div>
