@@ -54,6 +54,7 @@ function LoginForm() {
       <div className="flex lg:w-1/2 items-center justify-center text-center">
         <div className="flex flex-col items-center justify-center p-10 mt-0 mr-auto mb-0 ml-auto max-w-md rounded-lg shadow-2xl">
           <h2 className="text-4xl font-semibold mb-6">Login to SpotShare</h2>
+          <p className="text-gray-500 mb-6">Use Email:one@one.com and password: 12341234</p>
           {errorMessage && <p className="text-red-500">{errorMessage}</p>}
           <form onSubmit={onSubmit} className="w-full space-y-6">
             <InputField label="Email" type="email" placeholder="Enter your email" value={email} onChange={(e) => setEmail(e.target.value)}
