@@ -13,7 +13,7 @@ function SetPricing() {
         <h2 className="text-3xl lg:text-4xl font-semibold text-primary-black p-2 text-center">
           Set Pricing
         </h2>
-        <p className="text-center pb-20 lg:text-xl text-wrap ">Set hourly, daily, or monthly rates to suit various needs. For unavailable options, simply set the price to $0 to exclude them.</p>
+        <p className="text-center pb-2 lg:text-xl text-wrap ">Set hourly, daily, or monthly rates to suit various needs. For unavailable options, simply set the price to $0 to exclude them.</p>
       </div>
       <div className="flex flex-col lg:flex-row items-center">
         {[
