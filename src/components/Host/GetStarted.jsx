@@ -17,10 +17,10 @@ function GetStarted() {
         <h1 className="text-4xl md:text-7xl font-bold text-primary-color font-freeman">
           Turn Your <span className="text-[#32deaa]" >Empty</span> Space <br />into <span className="text-[#32deaa]" > Earning</span> Space
         </h1>
-        <p className="text-gray-500 mt-4 text-xl">You may put in random values for each section.</p>
         <div className="mt-6">
         <Button text="Get Started" className="w-1/2 lg:w-1/3 xl:w-1/3 2xl:w-1/4 inline-block pt-4 pr-5 pb-4 pl-5 text-xl font-medium text-center text-white bg-indigo-500 shadow-md shadow-slate-500 rounded-lg transition duration-200 hover:bg-indigo-600 ease"
         onClick={handleSubmit}/>
+        <p className="text-gray-500 mt-4 text-xl">You may put in random values for each section.</p>
       </div>
       {/* <p className="text-gray-500 mt-4">Already a host? <a href="/login" className="text-primary-color">Log in</a></p> */}
       </div>
