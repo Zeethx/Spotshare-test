@@ -13,7 +13,7 @@ function GetStarted() {
   }
   return (
     <div className="flex flex-col lg:flex-row  h-screen justify-center items-center">
-      <div className="lg:w-1/2 text-center mt-10 md:mt-0 pt-10 ">
+      <div className="lg:w-1/2 text-center mt-30 sm:mt-10 md:mt-0 pt-10 ">
         <h1 className="text-4xl md:text-7xl font-bold text-primary-color font-freeman">
           Turn Your <span className="text-[#32deaa]" >Empty</span> Space <br />into <span className="text-[#32deaa]" > Earning</span> Space
         </h1>
