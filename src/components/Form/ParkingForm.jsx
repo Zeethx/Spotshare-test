@@ -14,7 +14,7 @@ function ParkingForm() {
     },
   });
 // onsubmit clicked go to /become-a-host
-  navigate = useNavigate();
+  const navigate = useNavigate();
 
   const onSubmit = () => {
     navigate("/become-a-host");
